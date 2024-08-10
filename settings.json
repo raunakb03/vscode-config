@@ -1,0 +1,213 @@
+{
+  // Editor settings
+  "editor.suggestSelection": "first",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.linkedEditing": true,
+  "editor.showDeprecated": false,
+  "editor.accessibilitySupport": "off",
+  "editor.fontLigatures": "true, 'calt', 'ss01",
+  "editor.fontFamily": "'JetBrainsMono Nerd Font','Comic Code Ligatures Medium','Comic Code Medium','Comic Code','Cascadia Code', Menlo, Manco, 'Courier New', monospace",
+  "editor.inlayHints.fontFamily": "'JetBrainsMono Nerd Font', 'Cascadia Code', Menlo, Manco, 'Courier New', monospace",
+  "editor.suggest.showDeprecated": false,
+  "editor.stickyScroll.enabled": true,
+  "editor.inlineSuggest.showToolbar": "always",
+  "editor.cursorBlinking": "expand",
+  "editor.lineHeight": 24,
+  "editor.formatOnSaveMode": "modifications",
+  "editor.lineNumbers": "relative",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.insertSpaces": false,
+  "editor.minimap.autohide": true,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.glyphMargin": false,
+  "editor.showFoldingControls": "never",
+  "editor.rulers": [],
+  "editor.guides.indentation": false,
+  "breadcrumbs.enabled": false,
+
+  // apc stuffs
+  "apc.font.family": "JetBrainsMono Nerd Font",
+  "apc.header": {
+    "height": 0
+  },
+
+
+  // window settings
+  "window.menuBarVisibility": "toggle",
+  "window.title": " ",
+  "window.titleBarStyle": "custom",
+
+  // Workbench settings
+  "workbench.iconTheme": "rose-pine-icons",
+  "workbench.colorTheme": "Rosé Pine",
+  "workbench.tree.renderIndentGuides": "none",
+  "workbench.layoutControl.enabled": false,
+
+  // Terminal settings
+  "terminal.integrated.shellArgs.windows": ["-ExecutionPolicy", "Bypass"],
+
+  // Live Server and Sass Compiler settings
+  "liveServer.settings.donotShowInfoMsg": true,
+
+  // IntelliCode and Thunder Client settings
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+
+  // File and code-runner settings
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "": "afterDelay",
+  "files.associations": {
+    "*.css": "css"
+  },
+  "code-runner.runInTerminal": true,
+
+  // Language-specific settings
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+  "[css]": {
+    "editor.suggest.insertMode": "replace",
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+  "[go]": {
+    "editor.defaultFormatter": "golang.go",
+    "editor.tabSize": 2
+  },
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
+
+  // Miscellaneous settings
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "auto-rename-tag.activationOnLanguage": [
+    "html",
+    "xml",
+    "php",
+    "javascript",
+    "typescript",
+    "javascriptreact",
+    "typescriptreact"
+  ],
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "json.maxItemsComputed": 500000,
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "auto-close-tag.activationOnLanguage": [
+    "xml",
+    "php",
+    "blade",
+    "ejs",
+    "jinja",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "plaintext",
+    "markdown",
+    "vue",
+    "liquid",
+    "erb",
+    "lang-cfml",
+    "cfml",
+    "HTML (EEx)",
+    "HTML (Eex)",
+    "plist"
+  ],
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.suggest.paths": false,
+  "javascript.suggest.paths": false,
+  "material-icon-theme.folders.theme": "classic",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "dart.previewFlutterUiGuides": true,
+  "dart.previewFlutterUiGuidesCustomTracking": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "cpp": false,
+    "python": false,
+    "rust": false
+  },
+  "console-ninja.featureSet": "Community",
+  "security.workspace.trust.untrustedFiles": "open",
+  "go.toolsManagement.autoUpdate": true,
+  "vim.handleKeys": {
+    "<C-S-p>": false,
+    "<C-p>": false
+  },
+  "go.lintTool": "golangci-lint",
+  "gopls": {},
+  "github.copilot.editor.enableAutoCompletions": true,
+  "window.zoomLevel": 2,
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "terminal.integrated.env.windows": {},
+  "window.density.editorTabHeight": "compact",
+  "workbench.sideBar.location": "right",
+  "diffEditor.maxComputationTime": 0,
+  "supermaven.otherWarning": false,
+  "react-native-tools.showUserTips": false,
+  "editor.matchBrackets": "never",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "Ubuntu (WSL)": {
+      "path": "C:\\WINDOWS\\System32\\wsl.exe",
+      "args": [
+        "-d",
+        "Ubuntu"
+      ]
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
+  "files.autoSave": "afterDelay"
+}
